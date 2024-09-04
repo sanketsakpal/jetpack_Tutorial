@@ -51,7 +51,7 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
         .verticalScroll(rememberScrollState()),) {
 
 
-      val  image = painterResource(id =  R.drawable.bg_compose_background);
+      val  image = painterResource(id =  R.drawable.bg_compose_background)
 
         Image(painter = image, contentDescription =null )
         Text(
